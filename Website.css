@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+    
+  }
+  
+  .content {
+background-color: darkcyan;
+width: 100%;
+
+padding: 10vmin 8vmax;
+
+  }
+  .header {
+    background-color: cyan;
+    display: flex;
+    height:15vmin;
+    flex-direction: column;
+    text-align: center;
+    font-size: 4 vmin;
+
+  }
+  .gallery-1, .gallery-2, .gallery-3{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+  }
+  .gallery-2{
+    align-items:flex-end ;
+  }
+
+  h2{
+    margin: auto 15vw;
+    font-size: 2vmax;
+   }
+
+  .content img{
+    width:30vmax;
+    height:30vmin;
+    object-fit: cover;
+  }
+  
+  .bar{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2vmin ;
+  }
+  
